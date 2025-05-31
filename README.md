@@ -32,6 +32,7 @@ while True:
                 i+=s
 
 ```
+```
 
 SERVER: 
  
@@ -41,8 +42,7 @@ s.connect(('localhost',8000))
 while True:    
     print(s.recv(1024).decode()) 
     s.send("acknowledgement recived from the server".encode())
-
-    ```
+```
 ## OUPUT
 
 ![Screenshot 2025-05-31 193423](https://github.com/user-attachments/assets/e785fe50-9d3a-460c-bad8-885d37daa978)
